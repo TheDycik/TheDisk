@@ -1,0 +1,150 @@
+object fmt: Tfmt
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 511
+  ClientWidth = 746
+  StyleBook = fmHead.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object StringGrid1: TStringGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 746.000000000000000000
+    Size.Height = 456.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    RowCount = 102
+    Viewport.Width = 746.000000000000000000
+    Viewport.Height = 456.000000000000000000
+    object FloatColumn1: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object FloatColumn2: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object FloatColumn3: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object FloatColumn4: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object FloatColumn5: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object FloatColumn6: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object FloatColumn7: TFloatColumn
+      ShowThousandSeparator = False
+    end
+  end
+  object ToolBar1: TToolBar
+    Align = Bottom
+    Position.Y = 456.000000000000000000
+    Size.Width = 746.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Size.Width = 746.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 25.070551450144030000
+        end
+        item
+          Value = 24.918263256273710000
+        end
+        item
+          Value = 24.999830006413010000
+        end
+        item
+          Value = 25.011355287169240000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = rb1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = rb2
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = rb3
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = rb4
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          SizeStyle = Auto
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object rb1: TRadioButton
+        Align = Client
+        Anchors = []
+        StyledSettings = [Family, FontColor]
+        Size.Width = 187.026321411132800000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1042#1085#1091#1090#1088'. '#1091#1089#1080#1083#1080#1103
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnMouseMove = rb1MouseMove
+      end
+      object rb2: TRadioButton
+        Align = Client
+        StyledSettings = [Family, FontColor]
+        Size.Width = 185.890243530273400000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = #1053#1072#1087#1088#1103#1078#1077#1085#1080#1103
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnMouseMove = rb1MouseMove
+      end
+      object rb3: TRadioButton
+        Align = Client
+        StyledSettings = [Family, FontColor]
+        Size.Width = 186.498718261718800000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = #1055#1077#1088#1077#1084#1077#1097#1077#1085#1080#1077
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnMouseMove = rb1MouseMove
+      end
+      object rb4: TRadioButton
+        Align = Client
+        StyledSettings = [Family, FontColor]
+        Size.Width = 186.584716796875000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = #1044#1077#1092#1086#1088#1084#1072#1094#1080#1080
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnMouseMove = rb1MouseMove
+      end
+    end
+  end
+end
